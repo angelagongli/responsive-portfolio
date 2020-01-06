@@ -153,11 +153,15 @@ footer {
 
 /* Media Queries */
 
-/* modify text size of contact links on very small screen widths */
+/* modify text size on very small screen widths */
 
 @media screen and (max-width: 350px) {
 
     .contact-links a {
+        font-size: 14px;
+    }
+
+    .card-banner {
         font-size: 14px;
     }
 
